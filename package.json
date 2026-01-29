@@ -1,5 +1,5 @@
 {
-  "name": "astrobirthpic",
+  "name": "astropic",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
+    "@vercel/analytics": "^1.6.1",
     "axios": "^1.8.3",
     "date-fns": "^4.1.0",
     "react": "^19.0.0",

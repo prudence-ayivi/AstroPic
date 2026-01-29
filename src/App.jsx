@@ -4,6 +4,8 @@ import APODdata from "./components/APODdata";
 import { fetchAPOD } from "./api/ApodAPI";
 import { FaSun, FaMoon, FaRandom, FaWhatsapp } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 function App() {
@@ -72,7 +74,7 @@ function App() {
       >
         <div className="text-white text-left">
           <h1 className="text-4xl font-bold font-title">
-            AstroBirthPic
+            AstroPic
           </h1>
           <p className="py-4 w-[260px] text-lg">
             Explore APOD by date and see the APOD of your birth date
@@ -134,6 +136,9 @@ function App() {
         )}
         </div>
       </div>
+
+      <Analytics />
+
     </div>
   );
 }
